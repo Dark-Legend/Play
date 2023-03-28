@@ -1,0 +1,54 @@
+.videoCard-container {
+  width: 370px;
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.videoLogo-container {
+  width: 370px;
+  height: 230px;
+  border-radius: 20px;
+  object-position: center;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.iframe-video {
+  cursor: pointer;
+  border: none;
+}
+
+.logo-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.view-time {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+
+.video-info {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.videoCard-container:hover .logo-image {
+  border-radius: 0;
+  transition: 0.3s ease-in;
+}

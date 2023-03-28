@@ -1,0 +1,160 @@
+.sidebarContainer {
+  background-color: #2a363f;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  transition: width 0.4s ease-in-out;
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 0.8);
+}
+.logo-header {
+  display: flex;
+  width: auto;
+  //   border-bottom: 1px solid #9ba7a5;
+}
+
+.divider {
+  width: auto;
+  height: 2px;
+  margin: 10px 0;
+  color: white;
+  background-color: #5b666b;
+}
+
+.playbutton-icon {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 70px solid #5fb68c;
+  cursor: pointer;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.logoArrow {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.ulList {
+  background-color: #2a363f;
+  // padding: "17px";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  width: auto;
+  margin: 20px 0;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.listitem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+  width: 200px;
+  cursor: pointer;
+  margin: 0 10px;
+  justify-self: flex-start;
+  text-decoration: none;
+  height: 50px;
+}
+
+.isActive {
+  width: 100px;
+}
+
+.listitem:hover {
+  background-color: #6b877f;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.navList {
+  color: black;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  border: 2px solid white;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.navlist-container {
+  padding: 10px;
+  width: 100%;
+}
+
+.active {
+  background-color: #5b666b;
+}
+
+.Drawer-Sidebar {
+  background-color: #2a363f !important;
+}
+
+.listItemStyle:hover {
+  background-color: #9ba7a5;
+}
+
+.listItemStyle:active {
+  background-color: #9ba7a5 !important;
+}
+
+.divider2 {
+  width: auto;
+  height: 2px;
+  margin: 10px 0;
+  color: white;
+  background-color: #5b666b;
+  margin-top: 380px;
+}
+
+.logout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  padding: 5px 20px;
+}
+
+.logoutFont {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 210px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  gap: 10px;
+  transition: 0.4s ease-in-out;
+}
+
+.logoutFont:hover {
+  background-color: #6b877f;
+  border-radius: 10px;
+}

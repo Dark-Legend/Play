@@ -1,0 +1,31 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.inputLabel {
+  color: white;
+  font-size: 20px;
+}
+
+.input {
+  width: 350px;
+  height: 40px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.input:hover {
+  border: 2px solid rgb(225, 220, 220);
+}
+
+.input::placeholder {
+  color: white;
+}

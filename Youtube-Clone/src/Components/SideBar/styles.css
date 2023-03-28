@@ -1,0 +1,15 @@
+.active {
+  background-color: #6b877f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  border-radius: 10px;
+  width: 200px;
+  padding: 0 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: width 0.4s ease-in-out;
+}

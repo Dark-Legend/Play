@@ -1,0 +1,130 @@
+.loginContainer {
+  // width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
+  gap: 100px;
+  background-color: #2a363f;
+  padding: 0 20px 20px 20px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+  padding: 10px;
+}
+.containerInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+  flex: 1 1;
+}
+.formInput {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+
+  .input {
+    border: 1px solid #9ba7a5;
+    border-radius: 5px;
+    color: #f6f8f7;
+    font-weight: 500;
+    height: 35px;
+    width: 300px;
+  }
+
+  .input::placeholder {
+    color: #9ba7a5;
+    font-weight: 400;
+  }
+
+  .input:hover {
+    border: 1px solid #6ed9a0;
+    transition: border 0.3s ease-in-out;
+  }
+
+  .input:focus {
+    border: 1px solid #6ed9a0;
+    outline: none;
+  }
+
+  .btnContainer {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .signinBtn {
+    width: 100%;
+    height: 50px;
+    background-color: #6ed9a0;
+    color: #f6f8f7;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  }
+
+  .signinBtn:hover {
+    background-color: #54d38f;
+  }
+
+  .forgetpass {
+    color: #9ba7a5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    // flex-direction: column;
+    gap: 12px;
+    font-weight: 400;
+  }
+}
+
+.playbutton {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 70px solid #5fb68c;
+  cursor: pointer;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 300px;
+  border-right: 1px solid #9ba7a5;
+  // flex: 1 1;
+  width: 50%;
+  .ytTitle {
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+  }
+}
+
+.firstLastContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.forgetpassContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
